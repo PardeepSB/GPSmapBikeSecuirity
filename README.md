@@ -12,7 +12,7 @@ There is a SIM868 module soldered to a Raspberry Pi Pico which sends collected G
 </p>
 
 This System consists of a mechanical, software, and firmware component.<br />
-The 3D printed enclosure is a compact and light component that may be attached at the water bottle holder or rear saddle.<br /><br />
+The 3D printed enclosure is a compact and light component that may be attached at the water bottle holder or rear saddle.<br />
 
 <p align="center">
 	<img src="images/Enclosure.PNG" width="500" height="500"> <br />
