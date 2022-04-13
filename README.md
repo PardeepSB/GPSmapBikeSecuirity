@@ -2,7 +2,7 @@
 Bike security system that collections GPS information, sends to server over local Wi-Fi connection, which then displays on a locally hosted webserver.
 
 ## Demo
-[![GPS time-lapsed](images/GPS.PNG)](https://www.youtube.com/watch?v=IB1_enoEXS0&t=15s)
+![GPS time-lapsed](images/GPSBikeTracker.gif)
 
 ## About
 
