@@ -37,12 +37,12 @@ The 3D printed enclosure is a compact and light component that may be attached a
 	* `set FLASK_DEBUG=1`
 	* `python -m flask run`
 	<br />
-	should show the following:<br />
+	Should show the following, where the last line is a link to the locally hosted website
+
 <p align="center">
 	<img src="images/FLASKCapture.PNG">
 </p>
-	The last line is a link to the locally hosted website
-
+	
 3. Client and Server Setup
 	* Run `ipconfig` in terminal to obtain IPv4
 	* Set a port number and replace "IPv4 from ipconfig" in server.py & client.py with the obtained IPv4	
