@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <style>
+    .horizontal-width {
+        max-width: 25%;
+        margin: auto;
+    }
+    .vertical {
+        max-width: 25%;
+        margin: auto;
+    }
+    .vertical-center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    .cell{
+    position: relative;
+    float: left;
+    width: 300px;
+    min-height: 22px;
+
+    line-height: 22px;
+    font-family: Arial, Verdana;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+  </style>
+<body>
+  <div class="vertical">
+    <div class="vertical-center">
+      <div class="cell">
+        <h1>The GPS Bike Security System</h1>
+        <button onclick="myFunction()"><a href="http://127.0.0.1:5000/map">Enter Password</a></button>
+      </div>
+    </div>
+  </div>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var password = "BRUCE-102";
+  let person = prompt("Please enter the password:", "");
+  while (person != password) {
+  	person = prompt("Please enter the password:", "");
+    }
+}
+</script>
+</body>
+</html>
