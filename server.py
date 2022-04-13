@@ -3,8 +3,8 @@ import sys
 
 import pandas as pd
  
-host = '207.23.214.101'
-port = 8220
+host = 'IPv4 from ipconfig'
+port = PortNumber
 address = (host, port)
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -24,7 +24,7 @@ while True:
     elif output:
         print ("Message received from client:")
         print (output.decode())
-        f = open("data.csv", "w")
+        f = open("Coordinates.csv", "w")
         saving = str(output).strip('b').strip("'").replace(" ", "")
         f.write(saving)
         f.close

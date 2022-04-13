@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 @app.route('/data_json')
 def data_json():
-    f = open("data.csv", "r")
-    latLongt = f.read().split(",")
+    f = open("Coordinates.csv", "r")
+    latLongt = f.read().split(",") 
     lat = float(latLongt[0])
     longt = float(latLongt[1])
     f.close
@@ -31,4 +31,4 @@ def index():
 def map():
     dummy_data = data_json()
 
-    return render_template('frontend.html', frontend=dummy_data.json)
+    return render_template('map.html', map=dummy_data.json)
