@@ -22,8 +22,10 @@ The 3D printed enclosure is a compact and light component that may be attached a
 
 
 ## Demo
-<img src="images/GPSBikeTracker.gif" width="750" height="500">
 
+<p align="center">
+	<img src="images/GPSBikeTracker.gif" width="750" height="500">
+</p>
 
 ## Usage
 
@@ -34,8 +36,11 @@ The 3D printed enclosure is a compact and light component that may be attached a
 	* `set FLASK_APP=main.py`
 	* `set FLASK_DEBUG=1`
 	* `python -m flask run`
-	should show the following:
-	![FLASK terminal output](images/FLASKCapture.PNG)
+	<br />
+	should show the following:<br />
+<p align="center">
+	<img src="images/FLASKCapture.PNG">
+</p>
 
 3. Client and Server Setup
 	* Run `ipconfig` in terminal to obtain IPv4
@@ -43,7 +48,7 @@ The 3D printed enclosure is a compact and light component that may be attached a
 	* Run `server.py`
 	* Have `client.py` integrated within while loop of python GPS script running on Raspberry Pi Pico
 
-4. Go to webserver (link received from step 2)
+4. Go to webserver (link received from step 2 - last line)
 	* password to webpage is within index.html code, can be easily changed by user
 
 
