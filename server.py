@@ -1,7 +1,5 @@
 import socket
 import sys
-
-import pandas as pd
  
 host = 'IPv4 from ipconfig'
 port = PortNumber
@@ -30,6 +28,6 @@ while True:
         f.close
 
 
-        # conn.send("dack".encode())
+        # conn.send("dock".encode())
         # conn.send("ack".encode())
         
