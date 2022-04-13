@@ -46,7 +46,7 @@ Riding bike on sidewalk within wifi range, updating every 5 seconds:
 3. Client and Server Setup
 	* Run `ipconfig` in terminal to obtain IPv4
 	* Set a port number and replace "IPv4 from ipconfig" in server.py & client.py with the obtained IPv4	
-	* Run `server.py`
+	* Run `server.py` in correct directory within terminal
 	* Have `client.py` integrated within while loop of python GPS script running on Raspberry Pi Pico
 
 
