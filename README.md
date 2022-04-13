@@ -15,7 +15,7 @@ This System consists of a mechanical, software, and firmware component.<br />
 The 3D printed enclosure is a compact and light component that may be attached at the water bottle holder or rear saddle.<br /><br />
 
 <p align="center">
-	<img src="images/Enclosure.PNG" width="500" height="500"> 
+	<img src="images/Enclosure.PNG" width="500" height="500"> <br />
 	<img src="images/EnclosureMated.PNG" width="300" height="200"> 
 	<img src="images/MatingPart.PNG" width="300" height="200">
 </p>
