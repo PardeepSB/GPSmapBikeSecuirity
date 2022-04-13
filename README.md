@@ -63,7 +63,8 @@ Riding bike on sidewalk within wifi range, updating every 5 seconds:
 
 	- Project rolled out using agile methodology with 2 sprints
 	- 1st sprint was focused on creating a connection between the Raspberry Pi Pico and Local Device
-	- 2nd sprint was focused on understanding Flask apps and Google maps API used within Javascript integrated HTML file
+	- 2nd sprint was focused on understanding Flask apps and Google maps API used within Javascript 
+	  integrated HTML file
 
 ## Future Improvements
 
