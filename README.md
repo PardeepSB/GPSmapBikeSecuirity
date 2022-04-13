@@ -23,9 +23,9 @@ The 3D printed enclosure is a compact and light component that may be attached a
 
 ## Demo
 Riding bike on sidewalk within wifi range, updating every 5 seconds:
-<p align="center">
-	<img src="images/GPSBikeTracker.gif" width="750" height="500">
-</p>
+
+https://user-images.githubusercontent.com/73859429/163277977-10d36ebd-5bd2-4b48-bb53-4e19b06e04f3.mp4
+
 
 ## Usage
 
