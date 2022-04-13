@@ -41,6 +41,7 @@ The 3D printed enclosure is a compact and light component that may be attached a
 <p align="center">
 	<img src="images/FLASKCapture.PNG">
 </p>
+	The last line is a link to the locally hosted website
 
 3. Client and Server Setup
 	* Run `ipconfig` in terminal to obtain IPv4
@@ -48,34 +49,27 @@ The 3D printed enclosure is a compact and light component that may be attached a
 	* Run `server.py`
 	* Have `client.py` integrated within while loop of python GPS script running on Raspberry Pi Pico
 
-4. Go to webserver (link received from step 2 - last line)
-	* password to webpage is within index.html code, can be easily changed by user
-
 
 ## Directions for using Program
 	
-	1. Enter current availability schedule (availability for the term) & Select "Save Time"
-	2. Enter Course Name
-	3. Enter description of task for given class
-	4. Select Due Date & Due Time for task
-	5. Select Difficulty for task (easy, moderate, hard)
-	6. Enter Weightage (%) the task has towards final grade 
-	7. Select readiness for the given task (not prepared, somewhat prepared, fully prepared)
-	8. Click "Generate Summary and Add to Calendar"
+	1. Make sure Website and Server are running
+	2. Turn on Raspberry Pi Pico containing GPS and client script (supply with power)
+	3. Go to Website on local Wi-Fi connected device
+	4. Input Customized Password to be routed to updating map html
+	5. Move Enclosure or Pi Pico if removed from enclosure, to see change in location on Website
 
-Once all steps are completely, user may ignore step 1 and continue to add tasks if needed. 
-Once the user has entered all information about particular tasks, the system calculates the suggested time for the user
-to spend on the given task. The task is then added to the users Google Calendar with the suggested time of study.
 
 ## Work Flow
 
 	- Project rolled out using agile methodology with 2 sprints
-	- 1st sprint was focused on creating the task class and ui and then understanding how to work with the Google API 
-	- 2nd sprint was focused on integrating all parts and creating a task allocation algorithm 
+	- 1st sprint was focused on creating a connection between the Raspberry Pi Pico and Local Device
+	- 2nd sprint was focused on understanding Flask apps and Google maps API used within Javascript integrated HTML file
 
 ## Future Improvements
 
-	1. System learns from User to create better required study time equation
-	2. Improved UI design
-	3. Optimizing algorithms to improve efficieny and space
+	1. Create a Website that is accessible from anywhere on any internet connection (possibly HerokuApp)
+	2. Make use of GPRS capabilities of SIM868 module to text user in case of significant bike movement
+	3. Create database for storage of GPS locations
 	4. Deploying the program online so that program is more easily accessable 
+	5. Improve password protection as right now it is make shift protection
+	6. Make an app that displays battery life, current latitude/longitude, and other functions
