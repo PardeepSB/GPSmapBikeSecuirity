@@ -74,3 +74,4 @@ Riding bike on sidewalk within wifi range, updating every 5 seconds:
 	4. Deploying the program online so that program is more easily accessable 
 	5. Improve password protection as right now it is make shift protection
 	6. Make an app that displays battery life, current latitude/longitude, and other functions
+	7. Minimize size of of enclosure and system as a whole to reduce visibility
