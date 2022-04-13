@@ -7,14 +7,17 @@ Standard bike locks are not enough of a deterrent as they can be easily detached
 This Security System allows owners to keep track of their bikes conveniently from any internet enabled device without app installation.<br />
 
 There is a SIM868 module soldered to a Raspberry Pi Pico which sends collected GPS information to local server over Wi-Fi connection.<br /> 
-![RaspberryPiPico](images/RPiPico.PNG)
-
+<p align="center">
+	<img src="images/RPiPico.PNG" width="750" height="500"> 
+</p>
 The GPS Coordinates are displayed on a locally hosted webserver.<br />
 This System consists of a mechanical, software, and firmware component.<br />
 The 3D printed enclosure is a compact and light component that may be attached at the water bottle holder or rear saddle.<br />
 ![Bike Enclosure](images/Enclosure.PNG)
-<img src="images/EnclosureMated.PNG" width="500" height="300"> <img src="images/MatingPart.PNG" width="500" height="300">
-
+<p align="center">
+	<img src="images/EnclosureMated.PNG" width="300" height="200"> 
+	<img src="images/MatingPart.PNG" width="300" height="200">
+</p>
 There is also a motor lock which makes use of a SG90 Servo Motor to create a 2 step locking mechanism, locking the enclosure to the mating part. (Can see in Demo below)
 
 
