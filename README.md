@@ -2,7 +2,7 @@
 Bike security system that collections GPS information, sends to server over local Wi-Fi connection, which then displays on a locally hosted webserver.
 
 ## Demo
-![GPS time-lapsed](https://www.youtube.com/watch?v=IB1_enoEXS0&t=15s)
+[![GPS time-lapsed](images/GPS.PNG)](https://www.youtube.com/watch?v=IB1_enoEXS0&t=15s)
 
 ## About
 
@@ -14,16 +14,26 @@ The user may then refer to the Google calender at any given time.
 
 ## Usage
 
-1. Run `pip install flask` and `pip install socket` `pip install pandas` to install tkcalendar module
+1. Run `pip install flask` and `pip install socket` to install flask and socket modules
     
-2. Follow steps [here](https://www.developers.google.com/calendar/quickstart/python) to install Google Calendar API
-	* Rename downloaded `credentials.json` file to "client_secret.json" and include it in your directory
+2. Turn on Locally Hosted Webserver
+	In terminal, navigate to directory containing files and run the following commands:
+	* `set FLASK_APP=main.py`
+	* `set FLASK_DEBUG=1`
+	* `python -m flask run`
+	should show the following:
 
-3. Run `UI.py`
-	* New window will prompt you to login to a google account, Login
-	* If 2 step verification is enabled, accept the sent email
+![FLASK terminal output](images/FLASKCapture.PNG)
 
-4. Once User interface is shown, rerun `UI.py`
+3. Client and Server Setup
+	* Run `ipconfig` in terminal to obtain IPv4
+	* Set a port number and replace "IPv4 from ipconfig" in server.py & client.py with the obtained IPv4	
+	* Run `server.py`
+	* Have `client.py` integrated within while loop of python GPS script running on Raspberry Pi Pico
+
+4. Go to webserver (link received from step 2)
+	* password to webpage is within index.html code, can be easily changed by user
+
 
 ## Directions for using Program
 	
