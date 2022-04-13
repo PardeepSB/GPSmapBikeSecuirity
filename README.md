@@ -31,7 +31,7 @@ Riding bike on sidewalk within wifi range, updating every 5 seconds:
 
 1. Run `pip install flask` and `pip install socket` to install flask and socket modules
     
-2. Turn on Locally Hosted Webserver
+2. Turn on Locally Hosted Webserver<br />
 	In terminal, navigate to directory containing files and run the following commands:
 	* `set FLASK_APP=main.py`
 	* `set FLASK_DEBUG=1`
