@@ -1,17 +1,26 @@
-# GPSmapBikeSecuirity
-Bike security system that collections GPS information, sends to server over local Wi-Fi connection, which then displays on a locally hosted webserver.
+# GPS Map Bike Secuirity Prototype
+
+## About
+
+In Vancouver BC, more than 2000 bicycles are reported as stolen each year.
+Standard bike locks are not enough of a deterrent as they can be easily detached or noticed.
+This Security System allows owners to keep track of their bikes conveniently from any internet enabled device without app installation.
+
+There is a SIM868 module soldered to a Raspberry Pi Pico which sends collected GPS information to local server over Wi-Fi connection. 
+![RaspberryPiPico](images/RPiPico.PNG)
+
+The GPS Coordinates are displayed on a locally hosted webserver.
+This System consists of a mechanical, software, and firmware component.
+The 3D printed enclosure is a compact and light component that may be attached at the water bottle holder or rear saddle.
+![Bike Enclosure](images/Enclosure.PNG)
+![Bike Enclosure Mated](images/EnclosureMated.PNG) ![Enclosure Mating Part](images/MatingPart.PNG)
+
+There is also a motor lock which makes use of a SG90 Servo Motor to create a 2 step locking mechanism, locking the enclosure to the mating part. (Can see in Demo below)
+
 
 ## Demo
 <img src="images/GPSBikeTracker.gif" width="750" height="500">
 
-
-## About
-
-This Webserver is for a bike security system that is comprised of a physical
-TASP takes the user availability schedule and creates a study plan that helps them prepare for Assignments, Projects, or Exams.
-The program prioritizes certain tasks depending on their Due Date & Due Time.
-The calculated schedule is then imported to Google Calendars automatically upon task input/submission. 
-The user may then refer to the Google calender at any given time.
 
 ## Usage
 
@@ -23,8 +32,7 @@ The user may then refer to the Google calender at any given time.
 	* `set FLASK_DEBUG=1`
 	* `python -m flask run`
 	should show the following:
-
-![FLASK terminal output](images/FLASKCapture.PNG)
+	![FLASK terminal output](images/FLASKCapture.PNG)
 
 3. Client and Server Setup
 	* Run `ipconfig` in terminal to obtain IPv4
