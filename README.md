@@ -1,4 +1,4 @@
-# GPS Map Bike Secuirity Prototype
+# GPS Map Bike Security Prototype
 
 ## About
 
